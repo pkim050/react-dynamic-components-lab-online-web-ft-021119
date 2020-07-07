@@ -20,9 +20,17 @@ export default class BlogPost extends Component {
         I won't let you tilt me<br/>
         You only grew accustomed to the salt<br/>
         I was born in it<br/>
+<<<<<<< HEAD
         <Comment commentText={comments[0]} />
         <Comment commentText={comments[1]} />
         <Comment commentText={comments[2]} />
+=======
+        {/* (remove the comment ticks and their surrounding brackets)
+        <Comment commentText={comments[0]} />
+        <Comment commentText={comments[1]} />
+        <Comment commentText={comments[2]} />
+        */}
+>>>>>>> d20e63a290a1ad381adf54e9d295e3324fc6bceb
       </div>
     );
   }
